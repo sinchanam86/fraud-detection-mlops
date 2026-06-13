@@ -1,0 +1,51 @@
+[
+  {
+    "version": 1,
+    "model_name": "fraud_detector",
+    "run_id": "baseline",
+    "stage": "production",
+    "registered_at": "2026-06-13T15:22:51.953312",
+    "model_path": "registry\\fraud_detector_v1.pkl",
+    "metrics": {
+      "auc_roc": 1.0,
+      "auc_pr": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "f2": 1.0,
+      "threshold": 0.0592,
+      "tp": 80,
+      "fp": 0,
+      "tn": 1600,
+      "fn": 0,
+      "fraud_caught_pct": 100.0,
+      "false_alarm_rate": 0.0
+    },
+    "transitioned_at": "2026-06-13T15:22:51.955776"
+  },
+  {
+    "version": 2,
+    "model_name": "fraud_detector",
+    "run_id": "4cb81290",
+    "stage": "staging",
+    "registered_at": "2026-06-13T15:23:05.652068",
+    "model_path": "registry\\fraud_detector_v2.pkl",
+    "metrics": {
+      "auc_roc": 1.0,
+      "auc_pr": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "f2": 1.0,
+      "threshold": 0.1774,
+      "tp": 48,
+      "fp": 0,
+      "tn": 960,
+      "fn": 0,
+      "fraud_caught_pct": 100.0,
+      "false_alarm_rate": 0.0,
+      "train_seconds": 12.6,
+      "n_train_samples": 5712
+    }
+  }
+]

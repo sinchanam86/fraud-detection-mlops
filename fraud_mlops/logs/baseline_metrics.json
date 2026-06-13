@@ -1,0 +1,15 @@
+{
+  "auc_roc": 1.0,
+  "auc_pr": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "f2": 1.0,
+  "threshold": 0.0592,
+  "tp": 80,
+  "fp": 0,
+  "tn": 1600,
+  "fn": 0,
+  "fraud_caught_pct": 100.0,
+  "false_alarm_rate": 0.0
+}
