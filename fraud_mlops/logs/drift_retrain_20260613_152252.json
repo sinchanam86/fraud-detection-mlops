@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-06-13T15:22:52.986806",
+  "n_features_checked": 18,
+  "n_features_drifted": 15,
+  "drift_percentage": 83.3,
+  "overall_drift_alert": true,
+  "drifted_features": [
+    "log_amount",
+    "sender_account_age_days",
+    "receiver_account_age_days",
+    "n_transfers_sender_24h",
+    "n_transfers_sender_7d",
+    "sender_avg_amount_30d",
+    "is_cross_border",
+    "amount_is_round",
+    "receiver_is_new",
+    "time_since_last_login_hrs",
+    "device_fingerprint_mismatch",
+    "amount_vs_avg_ratio",
+    "velocity_amount_risk",
+    "combined_account_newness",
+    "cross_border_domestic_flag"
+  ],
+  "feature_details": {
+    "log_amount": {
+      "psi": 0.2494,
+      "ks_stat": 0.2118,
+      "ks_pvalue": 0.0,
+      "drifted": true,
+      "severity": "moderate"
+    },
+    "hour_of_day": {
+      "psi": 0.0387,
+      "ks_stat": 0.0277,
+      "ks_pvalue": 0.4217,
+      "drifted": 0,
+      "severity": "stable"
+    },
+    "sender_account_age_days": {
+      "psi": 3.6909,
+      "ks_stat": 0.3752,
+      "ks_pvalue": 0.0,
+      "drifted": true,
+      "severity": "significant"
+    },
+    "receiver_account_age_days": {
+      "psi": 0.024,
+      "ks_stat": 0.0554,
+      "ks_pvalue": 0.0044,
+      "drifted": 1,
+      "severity": "stable"
+    },
+    "n_transfers_sender_24h": {
+      "psi": 7.2402,
+      "ks_stat": 0.7078,
+      "ks_pvalue": 0.0,
+      "drifted": true,
+      "severity": "significant"
+    },
+    "n_transfers_sender_7d": {
+      "psi": 1.4143,
+      "ks_stat": 0.3721,
+      "ks_pvalue": 0.0,
+      "drifted": true,
+      "severity": "significant"
+    },
+    "sender_avg_amount_30d": {
+      "psi": 0.0763,
+      "ks_stat": 0.2398,
+      "ks_pvalue": 0.0,
+      "drifted": 1,
+      "severity": "stable"
+    },
+    "is_cross_border": {
+      "psi": 0.0928,
+      "ks_stat": 0.1285,
+      "ks_pvalue": 0.0,
+      "drifted": 1,
+      "severity": "stable"
+    },
+    "sender_is_domestic_only": {
+      "psi": 0.0,
+      "ks_stat": 0.0022,
+      "ks_pvalue": 1.0,
+      "drifted": 0,
+      "severity": "stable"
+    },
+    "amount_is_round": {
+      "psi": 0.2277,
+      "ks_stat": 0.1339,
+      "ks_pvalue": 0.0,
+      "drifted": true,
+      "severity": "moderate"
+    },
+    "receiver_is_new": {
+      "psi": 1.4038,
+      "ks_stat": 0.4549,
+      "ks_pvalue": 0.0,
+      "drifted": true,
+      "severity": "significant"
+    },
+    "time_since_last_login_hrs": {
+      "psi": 0.1674,
+      "ks_stat": 0.1705,
+      "ks_pvalue": 0.0,
+      "drifted": true,
+      "severity": "moderate"
+    },
+    "device_fingerprint_mismatch": {
+      "psi": 0.1255,
+      "ks_stat": 0.1066,
+      "ks_pvalue": 0.0,
+      "drifted": 1,
+      "severity": "moderate"
+    },
+    "amount_vs_avg_ratio": {
+      "psi": 0.0472,
+      "ks_stat": 0.0557,
+      "ks_pvalue": 0.0041,
+      "drifted": 1,
+      "severity": "stable"
+    },
+    "velocity_amount_risk": {
+      "psi": 3.298,
+      "ks_stat": 0.6819,
+      "ks_pvalue": 0.0,
+      "drifted": true,
+      "severity": "significant"
+    },
+    "combined_account_newness": {
+      "psi": 0.3736,
+      "ks_stat": 0.1685,
+      "ks_pvalue": 0.0,
+      "drifted": true,
+      "severity": "significant"
+    },
+    "cross_border_domestic_flag": {
+      "psi": 0.0739,
+      "ks_stat": 0.1003,
+      "ks_pvalue": 0.0,
+      "drifted": 1,
+      "severity": "stable"
+    },
+    "night_device_mismatch": {
+      "psi": 0.0291,
+      "ks_stat": 0.0132,
+      "ks_pvalue": 0.9942,
+      "drifted": 0,
+      "severity": "stable"
+    }
+  }
+}
