@@ -1,29 +1,59 @@
-#Fraud Detection MLOps 
-This project is about deploying an end-to-end MLOps pipeline for fraud detection with machine learning. It consists of data generation, model training, prediction, monitoring and model versioning.
+# Fraud Detection MLOps
 
-## Characteristics
-- Machine Learning for Fraud Detection
-- Data generation automation- Training and prediction of models
-- Monitor performance
-– Model versioning - Logging and drift detection 
+## Overview
 
-### Technologies Used - Python 
-- Pandilla
-- NumPy 
-- Scikit Learn
-- Joblib - Git & GitHub 
+This project implements an end-to-end MLOps pipeline for fraud detection using machine learning. It automates data generation, model training, prediction, monitoring, logging, and model versioning.
 
-## Project Structure ``` fraud-detection-mlops/ │── fraud_mlops/ │ ├── fraud_detector.py │ ├── main.py │ ├── mlops.py ```
-│ ├── data_generator.py
-│── requirements.txt 
-# .gitignore # README.md ```
+## Features
 
-## How to install
+* Fraud detection using Machine Learning
+* Automated data generation
+* Model training and prediction
+* Performance monitoring
+* Model versioning
+* Logging and drift detection
 
-Clone the srepository: 
-Clone the repository: ```bash git clone https://github.com/sinchanam86/fraud-detection-mlops.git ``` Install the dependencies: ```bash pip install -r requirements.txt ```
+## Technologies Used
 
-## Run the Project ```bash python fraud_mlops/main.py
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Joblib
+* Git
+* GitHub
 
-## Author's
-**Sinchana M
+## Project Structure
+
+```text
+fraud-detection-mlops/
+│
+├── fraud_mlops/
+│   ├── main.py
+│   ├── fraud_detector.py
+│   ├── mlops.py
+│   ├── data_generator.py
+│   ├── logs/
+│   └── registry/
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+## Installation
+
+```bash
+git clone https://github.com/sinchanam86/fraud-detection-mlops.git
+cd fraud-detection-mlops
+pip install -r requirements.txt
+```
+
+## Run
+
+```bash
+python fraud_mlops/main.py
+```
+
+## Author
+
+**Sinchana M**
