@@ -20,7 +20,7 @@ This project is about deploying an end-to-end MLOps pipeline for fraud detection
 
 ## How to install
 
-Clone the repository: 
+Clone the srepository: 
 Clone the repository: ```bash git clone https://github.com/sinchanam86/fraud-detection-mlops.git ``` Install the dependencies: ```bash pip install -r requirements.txt ```
 
 ## Run the Project ```bash python fraud_mlops/main.py
